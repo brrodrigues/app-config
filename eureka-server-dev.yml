@@ -4,3 +4,7 @@ server:
 app:
   info: Development Config UP!
   
+eureka:
+  client:
+    registerWithEureka: false
+fetchRegistry: false
