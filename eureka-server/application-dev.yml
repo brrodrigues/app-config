@@ -1,5 +1,0 @@
-server:
-  port: 8761
---
-app:
-  info: Development Server UP!     
