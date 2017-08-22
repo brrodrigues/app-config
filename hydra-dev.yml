@@ -5,8 +5,8 @@ app:
       path:
   file:
     output: 
-      path: c:\\u02\\files\\Local\\hydraws\\
-      tmp-path: c:\\u02\\files\\Local\\hydraws\\tmp
+      path: c:\u02\files\Local\\hydraws\
+      tmp-path: c:\u02\files\Local\hydraws\tmp
   config:
     execution:
       schedule:
