@@ -2,13 +2,13 @@ app:
   delay: 1000
   log:
     log4j-property: 
-	  path:
+      path:
   file:
     output: 
-	  path: c:\\u02\\files\\Local\\hydraws\\
-	  tmp-path: c:\\u02\\files\\Local\\hydraws\\tmp
+      path: c:\\u02\\files\\Local\\hydraws\\
+      tmp-path: c:\\u02\\files\\Local\\hydraws\\tmp
   config:
     execution:
-	    schedule:
-	      initial-hour: 0
-		    final-hour: 23
+      schedule:
+        initial-hour: 0
+        final-hour: 23
