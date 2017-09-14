@@ -7,6 +7,21 @@ app:
     output: 
       path: c:\u02\files\Local\\hydraws\
       tmp-path: c:\u02\files\Local\hydraws\tmp
+  datasource:
+    ws-hydra-bc:
+      platform: oracle
+      xa:
+        data-drive-class-name: oracle.jdbc.xa.client.OracleXADataSource
+      url: jdbc:oracle:thin:@10.23.92.199:1521:LGRVDSV
+      username: cupomctz
+      password: cupomctz
+    p2k:
+      platform: oracle
+      xa:
+        data-drive-class-name: oracle.jdbc.xa.client.OracleXADataSource
+      url: jdbc:oracle:thin:@52.0.8.177:1521:P2KEPHOM
+      username: webjava
+      password: web#2016
   config:
     execution:
       schedule:
